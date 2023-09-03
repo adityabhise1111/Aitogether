@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+1
+  
+    <iframe
+      src="https://www.wikipedia.com"
+      
+      style="width: 0; height: 0; filter: blur(10px);; transition: width 2s ease, filter 2s ease, opacity 2s ease;"
+      onload="z(this);"
+    ></iframe>
+  
+
+2 <div style="width:100%;height:500px">
+  
+    <iframe
+      src="https://gpt.h2o.ai/"
+      
+      style="width: 0; height:0; filter: blur(10px); opacity: 0; transition: width 2s ease, filter 2s ease, opacity 2s ease;"
+      onload="z(this);"
+    ></iframe>
+  
+   </div>
+3
+  
+    <iframe
+      src="https://www.sci-hub.se/"
+      
+      style="width: 0; height: 0; filter: blur(10px); opacity: 0; transition: width 2s ease, filter 2s ease, opacity 2s ease;"
+      onload="z(this);"
+    ></iframe>
+4
+
+<div style="width:100%;height:500px">
+  
+    <iframe
+      src="https://www.perplexity.ai/?focus=internet"
+      
+      style="width: 0; height:0; filter: blur(10px); opacity: 0; transition: width 2s ease, filter 2s ease, opacity 2s ease;"
+      onload="z(this);"
+    ></iframe>
+  
+   </div>
+  
+
+  <script>
+    function z(iframe) {
+      iframe.style.width = "100%";
+      iframe.style.filter = "blur(0)";
+      iframe. style. opacity= 1;
+      iframe.style.height = "500px";
+    }
+  </script>
+</body>
+</html>
